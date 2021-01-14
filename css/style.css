@@ -16,6 +16,8 @@ h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3.5rem;
     color: #6455a5;
+    margin-bottom: 40px;
+
 }
 .cart-btn {
     background-color: #2A1E59;
@@ -33,7 +35,7 @@ h2 {
 .card {
     border: 0;
     border-radius: 20px;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 .card img {
@@ -77,11 +79,9 @@ h2 {
     z-index: 2;
 }
 
-.newsletter .content h2 {
-    color: #243c4f;
+/* .newsletter .content h2 {
     margin-bottom: 40px;
-}
-
+} */
 .newsletter .content .form-control {
     height: 50px;
     border-color: #ffffff;
@@ -90,13 +90,13 @@ h2 {
 
 .newsletter .content.form-control:focus {
     box-shadow: none;
-    border: 2px solid #6cc993;
+    border: 2px solid #6455a5;
 }
 
 .newsletter .content .btn {
     min-height: 50px;
     border-radius: 0;
-    background: #243c4f;
+    background: #6455a5;
     color: #fff;
     font-weight: 600;
 }
