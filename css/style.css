@@ -1,40 +1,48 @@
-body{
-    font-family: 'Roboto', sans-serif;  
+body {
+    font-family: 'Roboto', sans-serif;
 }
-header{
+
+header {
     background-color: #FFFFF4;
 }
-h1{
+
+h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 4.5rem;
-    color:#6455a5;
+    color: #6455a5;
 }
-h2{
+
+h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3.5rem;
-    color:#6455a5;
+    color: #6455a5;
 }
-.cart-btn{
+
+.cart-btn {
     background-color: #2A1E59;
     color: white;
     width: 170px;
     height: 60px;
     border-radius: 10px;
 }
+
 .cart-btn:hover {
     background-color: rgb(16, 196, 121);
     color: whitesmoke;
 }
-.card{
+
+.card {
     border: 0;
     border-radius: 20px;
 }
-.card img{
+
+.card img {
     margin: 5%;
     background: #F1F1F1;
     border-radius: 20px;
     width: 90%;
 }
+
 .b-price {
     font-family: Roboto;
     font-style: normal;
@@ -43,13 +51,52 @@ h2{
     line-height: 60px;
     color: #76C27E;
 }
-.policy img{
+
+.policy img {
     width: 50%;
 }
-.cart{
-    width: 50%;
-}
-.cart img{
-    margin-left: 40%;
+
+.cart img {
     width: 100%;
+}
+
+.row-border {
+    border-radius: 20px;
+}
+
+.newsletter {
+    padding: 80px 0;
+    background-color: #FFFFF4;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #6cc993;
+}
+
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 600;
 }
