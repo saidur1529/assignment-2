@@ -1,65 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
 
     <title>Penguin Fashion | ASSIGNMENT2</title>
   </head>
   <body>
-      <header>
-          <section class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <div class="col-md-4">
-                    <a class="navbar-brand" href="#"> <img src="images/Logo_Icon/Logo.png" alt="" class="w-50 d-inline-block align-top"></a>
-                  </div>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse col-md-8" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav m-lg-auto fw-bold">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Product</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-          </section>
-          <section class="container">
-            <div class="row d-flex align-items-center">
-              <div class="col-md-6">
-                  <h1>BackPack<br>Moon</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. A, sequi?</p>
-                  <button class="btn btn-warning"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+    <header>
+      <!-- Nav bar section -->
+      <section class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/Logo_Icon/Logo.png" class="w-50" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end fw-bold"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav gap-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
               </div>
-              <div class="col-md-6">
-                  <img src="images/Logo_Icon/feature_bag.png" class="d-block w-100" alt="...">
-
-              </div>
-
+            </div>
           </div>
-          </section>
-      </header>
+        </nav>
+      </section>
+      <!-- Hero image -->
+      <section class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 align-content-center">
+            <h1>BackPack<br /><span class="moon-text"></span>Moon</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit. A,
+              sequi?
+            </p>
+            <button class="btn cart-btn">
+              <i class="fas fa-shopping-cart"></i> Buy Now
+            </button>
+          </div>
+          <div class="col-md-5 align-content-center">
+            <img
+              src="images/Logo_Icon/feature_bag.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- product section -->
+    <main class="mt-5">
+      <section class="container formal-shoes mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col shadow-sm">
+            <div class="card h-100">
+              <img src="images/products/Nike Sportswear Hayward .png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col shadow-sm">
+            <div class="card h-100">
+              <img src="images/products/school_bag.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col shadow-sm">
+            <div class="card h-100">
+              <img src="images/products/CityLite Security Backpack .png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,10 +1,38 @@
 header{
-    height: 740px;
     background-color: #FFFFF4;
 }
-h1, h2{
+
+h1{
     font-family: 'Bebas Neue', cursive;
+    font-size: 4.5rem;
+    color:#6455a5;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    color:#6455a5;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    
+}
+.cart-btn{
+    background-color: #2A1E59;
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+}
+.cart-btn:hover {
+    background-color: rgb(16, 196, 121);
+    color: whitesmoke;
+}
+
+.card{
+    background-color: white;
+    border: 0;
+}
+.card img{
+    background: #F1F1F1;
+    border-radius: 20px;
 }
