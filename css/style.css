@@ -1,7 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+}
 header{
     background-color: #FFFFF4;
 }
-
 h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 4.5rem;
@@ -11,10 +13,6 @@ h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 3.5rem;
     color:#6455a5;
-}
-body{
-    font-family: 'Roboto', sans-serif;  
-    
 }
 .cart-btn{
     background-color: #2A1E59;
@@ -27,12 +25,31 @@ body{
     background-color: rgb(16, 196, 121);
     color: whitesmoke;
 }
-
 .card{
-    background-color: white;
     border: 0;
+    border-radius: 20px;
 }
 .card img{
+    margin: 5%;
     background: #F1F1F1;
     border-radius: 20px;
+    width: 90%;
+}
+.b-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 60px;
+    color: #76C27E;
+}
+.policy img{
+    width: 50%;
+}
+.cart{
+    width: 50%;
+}
+.cart img{
+    margin-left: 40%;
+    width: 100%;
 }

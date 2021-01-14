@@ -1,124 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/all.min.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Penguin Fashion | ASSIGNMENT2</title>
-  </head>
-  <body>
-    <header>
-      <!-- Nav bar section -->
-      <section class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              ><img src="images/Logo_Icon/Logo.png" class="w-50" alt=""
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-end fw-bold"
-              id="navbarNavAltMarkup"
-            >
-              <div class="navbar-nav gap-3">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
-                >
-              </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/all.min.css" />
+
+  <title>Penguin Fashion | ASSIGNMENT2</title>
+</head>
+
+<body>
+  <header>
+    <!-- Nav bar section -->
+    <section class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/Logo_Icon/Logo.png" class="w-50" alt="" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end fw-bold" id="navbarNavAltMarkup">
+            <div class="navbar-nav gap-5">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Product</a>
+              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="#">Contact Us</a>
             </div>
-          </div>
-        </nav>
-      </section>
-      <!-- Hero image -->
-      <section class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-7 align-content-center">
-            <h1>BackPack<br /><span class="moon-text"></span>Moon</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit. A,
-              sequi?
-            </p>
-            <button class="btn cart-btn">
-              <i class="fas fa-shopping-cart"></i> Buy Now
-            </button>
-          </div>
-          <div class="col-md-5 align-content-center">
-            <img
-              src="images/Logo_Icon/feature_bag.png"
-              class="d-block w-100"
-              alt="..."
-            />
           </div>
         </div>
-      </section>
-    </header>
-    <!-- product section -->
-    <main class="mt-5">
-      <section class="container formal-shoes mt-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col shadow-sm">
-            <div class="card h-100">
+      </nav>
+    </section>
+    <!-- Hero image -->
+    <section class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6 align-content-center">
+          <h1>BackPack<br /><span class="moon-text"></span>Moon</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur<br />adipisicing elit. A,
+            sequi?
+          </p>
+          <button class="btn cart-btn">
+            <i class="fas fa-shopping-cart"></i> Buy Now
+          </button>
+        </div>
+        <div class="col-md-6 align-content-center">
+          <img src="images/Logo_Icon/feature_bag.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- product section -->
+  <main class="mt-5 container">
+    <!-- Travel backpack section -->
+    <section class="backpack">
+      <h2>CASUAL BACKPACK</h2>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col">
+          <div class="card h-100 shadow-lg">
+            <img src="images/products/Nike Sportswear Hayward .png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title fw-bolder" style="color: #2A1E59;">Nike Sportswear Hayward</h3>
+              <h5 class="card-title">Nike Sportswear Hayward</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <p class="d-flex justify-content-md-around"><span class="b-price">$234</span><button class="btn cart-btn">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button></p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg">
+            <img src="images/products/school_bag.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title fw-bolder" style="color: #2A1E59;">School Backpack</h3>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <p class="d-flex justify-content-md-around"><span class="b-price">$234</span><button class="btn cart-btn">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button></p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg">
+            <img src="images/products/CityLite Security Backpack .png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title fw-bolder" style="color: #2A1E59;">CityLite Security Backpack</h3>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+            <p class="d-flex justify-content-md-around"><span class="b-price">$234</span><button class="btn cart-btn">
+                <i class="fas fa-shopping-cart"></i> Buy Now
+              </button></p>
+          </div>
+        </div>
+    </section>
+    <!-- travel backpack -->
+    <section class="backpack mt-5">
+      <div class="mt-5">
+        <h2>TRAVEL BACKPACK</h2>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <div class="card h-100 shadow-lg">
               <img src="images/products/Nike Sportswear Hayward .png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h3 class="card-title fw-bolder" style="color: #2A1E59;">Travel Sport</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
               </div>
+              <p class="d-flex justify-content-md-around"><span class="b-price">$234</span><button class="btn cart-btn">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button></p>
             </div>
           </div>
-          <div class="col shadow-sm">
-            <div class="card h-100">
+          <div class="col">
+            <div class="card h-100 shadow-lg">
               <img src="images/products/school_bag.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h3 class="card-title fw-bolder" style="color: #2A1E59;">Jack Wolfskin West Highland</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
               </div>
+              <p class="d-flex justify-content-md-around"><span class="b-price">$234</span><button class="btn cart-btn">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button></p>
             </div>
           </div>
-          <div class="col shadow-sm">
-            <div class="card h-100">
+          <div class="col">
+            <div class="card h-100 shadow-lg">
               <img src="images/products/CityLite Security Backpack .png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <h3 class="card-title fw-bolder" style="color: #2A1E59;">Hiking Trekking Bag Camping</h3>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                  content.</p>
               </div>
+              <p class="d-flex justify-content-md-around"><span class="b-price">$234</span><button class="btn cart-btn">
+                  <i class="fas fa-shopping-cart"></i> Buy Now
+                </button></p>
             </div>
           </div>
+        </div>
+    </section>
+          <!-- PRODUCT POLICY SECTION  -->
+        <section id="about" class="pt-5 pb-5">
+          <div class="container pt-5 pb-5">
+              <div class="row">
+                  <div class="col-md-5">
+                      <div class="row row-cols-1 g-4">
+                          <div class="col adjust-image shadow-lg d-flex justify-content-evenly align-items-center rounded-3">
+                              <div class="col-md-3 policy">
+                                  <img src="images/Logo_Icon/image 12.png" alt="">
+                              </div>
+                              <div class="col-md-8">
+                                  <h3 class="fw-bolder" style="color: #2A1E59;">Find the Perfect Fit</h3>
+                                  <p>Everybody is different, which is why we offer styles for every body.</p>
+                              </div>
+                          </div>
+                          <div class="col shadow-lg d-flex justify-content-evenly align-items-center rounded-3">
+                              <div class="col-md-3 policy">
+                                  <img src="images/Logo_Icon/image 13.png" alt="">
+                              </div>
+                              <div class="col-md-8">
+                                  <h3 class="fw-bolder" style="color: #2A1E59;">Free Exchanges</h3>
+                                  <p>One of the many reasons you can shop with peace of mind.</p>
+                              </div>
+                          </div>
+                          <div class="col shadow-lg d-flex justify-content-evenly align-items-center rounded-3">
+                              <div class="col-md-3 policy">
+                                  <img src="images/Logo_Icon/image 14.png" alt="">
+                              </div>
+                              <div class="col-md-8">
+                                  <h3 class="fw-bolder" style="color: #2A1E59;">Contact Our Seller</h3>
+                                  <p>They are here to help you. That's quite literally what we pay them for.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-7 d-flex justify-content-center align-items-center cart">
+                      <img src="images/Logo_Icon/XMLID 1.png" alt="shopping cart">
+                  </div>
+              </div>
+          </div>
       </section>
-    </main>
+      <!-- END OF PRODUCT POLICY SECTION  -->
+  </main>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
