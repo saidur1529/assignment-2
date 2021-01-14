@@ -5,7 +5,9 @@ body {
 header {
     background-color: #FFFFF4;
 }
-
+.highliht{
+    color: #76C27E;
+}
 h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 4.5rem;
