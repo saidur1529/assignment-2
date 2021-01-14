@@ -38,8 +38,8 @@ h2 {
     border: 0;
     border-radius: 20px;
 }
-.col{
-    margin-top: 20px;
+.col ,.col-md-6{
+    margin-top: 15px;
 }
 .card img {
     margin: 5%;
