@@ -1,0 +1,10 @@
+header{
+    height: 715px;
+    background-color: #FFFFF4;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
