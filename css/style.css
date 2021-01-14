@@ -23,7 +23,7 @@ h2 {
 }
 .cart-btn {
     background-color: #2A1E59;
-    height: 4rem;
+    height: 3rem;
     width: 10rem;
     color: white;   
     border-radius: 10px;
@@ -37,7 +37,6 @@ h2 {
 .card {
     border: 0;
     border-radius: 20px;
-    padding-bottom: 10%;
 }
 
 .card img {
@@ -95,10 +94,10 @@ h2 {
     border: 2px solid #6455a5;
 }
 
-.newsletter .content .btn {
+/* .newsletter .content .btn {
     min-height: 50px;
     border-radius: 0;
     background: #6455a5;
     color: #fff;
     font-weight: 600;
-}
+} */
