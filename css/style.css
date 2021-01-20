@@ -91,8 +91,3 @@ h2 {
     border-color: #ffffff;
     border-radius: 0;
 }
-
-.newsletter .content.form-control:focus {
-    box-shadow: none;
-    border: 2px solid #6455a5;
-}
